@@ -1,0 +1,119 @@
+<!--
+  Private School Website Template
+  File: about.html
+  Structure: Mission, vision, values, leadership message, and campus gallery.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Evergreen Academy</title>
+  <meta name="description" content="Learn about Evergreen Academy's mission, vision, values, and leadership commitment to student excellence." />
+  <meta property="og:title" content="About Us | Evergreen Academy" />
+  <meta property="og:description" content="Discover the mission, values, and leadership philosophy shaping Evergreen Academy students." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example-school.com/about.html" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Evergreen Academy home">
+        <span class="brand__mark" aria-hidden="true">EA</span>
+        <span class="brand__text">Evergreen Academy</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-navigation">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-list__link" href="index.html">Home</a></li>
+          <li><a class="nav-list__link nav-list__link--active" href="about.html">About</a></li>
+          <li><a class="nav-list__link" href="admissions.html">Admissions</a></li>
+          <li><a class="nav-list__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero" aria-labelledby="about-title">
+      <div class="container">
+        <h1 id="about-title">About Evergreen Academy</h1>
+        <p>We are committed to raising confident, compassionate, and globally competitive learners.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="mission-title">
+      <div class="container grid grid--3col">
+        <article class="card">
+          <h2 id="mission-title">Mission</h2>
+          <p>To provide an outstanding educational experience that develops academic excellence, moral integrity, and practical life skills.</p>
+        </article>
+        <article class="card">
+          <h2>Vision</h2>
+          <p>To be a leading institution that empowers students to become innovative thinkers and responsible global citizens.</p>
+        </article>
+        <article class="card">
+          <h2>Core Values</h2>
+          <ul class="checklist">
+            <li>Integrity</li>
+            <li>Excellence</li>
+            <li>Respect</li>
+            <li>Discipline</li>
+            <li>Service</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="leadership-title">
+      <div class="container grid grid--2col">
+        <div class="leadership-image" role="img" aria-label="Principal standing with students"></div>
+        <article>
+          <h2 id="leadership-title">Message from the Principal</h2>
+          <p>At Evergreen Academy, every student is seen, known, and challenged to reach their full potential. Our faculty combines expertise with empathy, ensuring students grow in both competence and character.</p>
+          <p>We believe strong partnerships with parents are essential. Together, we create a supportive ecosystem where children become lifelong learners and leaders.</p>
+          <p><strong>— Dr. Adaeze Nnaji, Principal</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="container">
+        <h2 id="gallery-title">Campus Gallery</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80" alt="Students in a modern classroom" loading="lazy" />
+            <figcaption>Interactive Classroom Learning</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80" alt="Students working in science laboratory" loading="lazy" />
+            <figcaption>Hands-On Science Practical</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80" alt="Students playing on school sports field" loading="lazy" />
+            <figcaption>Sports and Team Building</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year"></span> Evergreen Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

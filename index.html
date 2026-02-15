@@ -1,0 +1,176 @@
+<!--
+  Private School Website Template
+  File: index.html
+  Structure: Sticky header/navigation, hero section, about summary, facilities, testimonials,
+  admissions call-to-action, and footer.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evergreen Academy | Private School Excellence</title>
+  <meta name="description" content="Evergreen Academy is a modern private school focused on academic excellence, character development, and future-ready learning." />
+  <meta property="og:title" content="Evergreen Academy | Private School Excellence" />
+  <meta property="og:description" content="Discover a trusted private school community focused on student success, values, and innovation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example-school.com/index.html" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Evergreen Academy home">
+        <span class="brand__mark" aria-hidden="true">EA</span>
+        <span class="brand__text">Evergreen Academy</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-navigation">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-list__link nav-list__link--active" href="index.html">Home</a></li>
+          <li><a class="nav-list__link" href="about.html">About</a></li>
+          <li><a class="nav-list__link" href="admissions.html">Admissions</a></li>
+          <li><a class="nav-list__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__content">
+        <p class="eyebrow">Established 1998 • Nursery to Senior Secondary</p>
+        <h1 id="hero-title">A trusted learning environment where every child can thrive.</h1>
+        <p class="hero__lead">We combine academic rigor, values-based education, and modern facilities to prepare students for meaningful futures.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="admissions.html">Apply Now</a>
+          <a class="btn btn--secondary" href="about.html">Explore Our School</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-summary-title">
+      <div class="container grid grid--2col">
+        <article>
+          <h2 id="about-summary-title">About Evergreen Academy</h2>
+          <p>Evergreen Academy is a student-centered private school committed to delivering exceptional education in a safe, inclusive, and inspiring environment.</p>
+          <p>Our dedicated teachers and structured programs help students build confidence, leadership, and lifelong curiosity.</p>
+          <a class="text-link" href="about.html">Learn more about our mission and leadership</a>
+        </article>
+        <aside class="card" aria-label="School highlights">
+          <h3>At a Glance</h3>
+          <ul class="checklist">
+            <li>25+ years of educational excellence</li>
+            <li>Strong WAEC/IGCSE performance</li>
+            <li>Modern science and ICT labs</li>
+            <li>Clubs, sports, and arts programs</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="facilities-title">
+      <div class="container">
+        <h2 id="facilities-title">Facilities</h2>
+        <div class="grid grid--3col">
+          <article class="feature-card">
+            <h3>Science Laboratories</h3>
+            <p>Fully equipped labs designed for practical, inquiry-based learning.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Smart Classrooms</h3>
+            <p>Technology-enabled classrooms for interactive and engaging lessons.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Sports Complex</h3>
+            <p>Well-maintained courts and fields supporting holistic student development.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Library & Media Center</h3>
+            <p>A curated resource hub that nurtures reading culture and research skills.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Creative Arts Studio</h3>
+            <p>Dedicated spaces for music, drama, visual arts, and creative expression.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Secure Campus</h3>
+            <p>Controlled access, CCTV coverage, and a strong child protection policy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <h2 id="testimonials-title">What Families Say</h2>
+        <div class="grid grid--3col">
+          <blockquote class="testimonial">
+            <p>“Evergreen has given our daughter confidence and outstanding academic support. We are proud of her growth.”</p>
+            <cite>— Mrs. Okafor, Parent</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>“The school balances discipline, innovation, and care. My son feels challenged and supported.”</p>
+            <cite>— Mr. Musa, Parent</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>“From leadership to teachers, the professionalism is exceptional. It truly feels like a community.”</p>
+            <cite>— Ms. Adeyemi, Parent</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" aria-labelledby="admission-cta-title">
+      <div class="container cta__inner">
+        <div>
+          <h2 id="admission-cta-title">Admissions Open for 2026/2027 Session</h2>
+          <p>Secure your child’s place in a school committed to excellence, values, and future readiness.</p>
+        </div>
+        <a class="btn btn--primary" href="admissions.html">Start Application</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <h2 class="footer__title">Evergreen Academy</h2>
+        <p>12 Unity Crescent, Ikeja, Lagos, Nigeria</p>
+        <p>+234 (0) 800 123 4567</p>
+        <p>info@evergreenacademy.edu.ng</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul class="social-links" aria-label="Social media links">
+          <li><a href="#" aria-label="Visit our Facebook page">Facebook</a></li>
+          <li><a href="#" aria-label="Visit our Instagram page">Instagram</a></li>
+          <li><a href="#" aria-label="Visit our LinkedIn page">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year"></span> Evergreen Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
